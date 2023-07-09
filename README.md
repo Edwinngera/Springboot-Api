@@ -14,7 +14,7 @@ This is a simple Spring Boot API that allows you to manage customers. It provide
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/spring-boot-customer-api.git
+   git clone https://github.com/Edwinngera/Springboot-Api.git
 
 2. Configure the database:
    
