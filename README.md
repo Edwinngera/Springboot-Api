@@ -22,39 +22,47 @@ This is a simple Spring Boot API that allows you to manage customers. It provide
   Update the database connection properties with your PostgreSQL database credentials.
 
 3. Build the application:
+   ```bash
    mvn clean package
 
-4. Run the application:
+5. Run the application:
+   ```bash
    java -jar target/customer-api.jar
    
-6. The API will be accessible at http://localhost:8080.
+7. The API will be accessible at:
+   ```bash
+   http://localhost:8080.
 
 ## API Endpoints
 The following endpoints are available for managing customers:
 
-Add a customer
+### Add a customer
 
 Endpoint: POST /api/customers
 Request body:
+```bash
 {
   "name": "John Doe",
   "email": "johndoe@example.com",
   "address": "123 Main St"
 }
+```
 Response:
 
+```
 {
   "id": 1,
   "name": "John Doe",
   "email": "johndoe@example.com",
   "address": "123 Main St"
 }
+```
 
-Get all customers
-
+### Get all customers
 Endpoint: GET /api/customers
 Response:
 
+```bash
 [
 {
     "id": 1,
